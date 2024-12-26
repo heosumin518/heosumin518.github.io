@@ -766,8 +766,7 @@ $btn-mb: 0.5rem;
       @extend %clickable-transition;
       @extend %sidebar-link-hover;
 
-      //color: var(--site-title-color);
-      color: rgba(246, 254, 255, 99%);
+      color: var(--site-title-color);
     }
   }
 
