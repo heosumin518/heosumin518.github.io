@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: HeoBlog # the main title
 
-tagline: 게임 개발 공부 기록 블로그 # it will display as the sub-title
+tagline: game.. develop.. etc.. # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   blog for technical writing.
