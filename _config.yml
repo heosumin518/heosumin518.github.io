@@ -40,9 +40,9 @@ social:
     # The first element serves as the copyright owner's link
     - https://github.com/heosumin518 # change to your github homepage
     # Uncomment below to add more social links
-    # - https://twitter.com/username # change to your twitter homepage
+    - https://twitter.com/heosumin518 # change to your twitter homepage
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/heosumin518
 
 # Site Verification Settings
 webmaster_verifications:
