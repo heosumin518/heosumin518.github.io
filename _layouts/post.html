@@ -17,10 +17,9 @@ tail_includes:
 
     <div class="post-meta text-muted">
       <!-- published date -->
-      {% assign post_date = page.date | default: page.last_modified_at %}
       <span>
         {{ site.data.locales[lang].post.posted }}
-        {% include datetime.html date=post_date tooltip=true lang=lang %}
+        {% include datetime.html date=page.date tooltip=true lang=lang %}
       </span>
 
       <!-- lastmod date -->
