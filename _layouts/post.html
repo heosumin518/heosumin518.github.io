@@ -19,7 +19,7 @@ tail_includes:
       <!-- published date -->
       <span>
         {{ site.data.locales[lang].post.posted }}
-        {% include datetime.html date=page.date tooltip=true lang=lang %}
+        {% include datetime.html date=page.date | default: page.last_modified_at tooltip=true lang=lang %}
       </span>
 
       <!-- lastmod date -->
